@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(45deg, #FFD4E5, #BDE8EF, #B7D784, #FEFFA2, #e0cdff);
+    background-attachment: fixed;
+}
+
+.tomogachi {
+    font-size: 15vh;
+}
+
+.infoContainer {
+    display: flex;
+    gap: 2vh;
+}
+
+.text {
+    font-size: 4vh;
+}
+
+.img {
+    width: 40vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 10vh;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0.2vh 0.2vh 0.5vh rgba(0, 0, 0, 0.5);
+    background-color: antiquewhite;
+    border-radius: 50%;
+    gap: 2vh;
+    padding: 2vh;
+    width: 65vh;
+    height: 65vh;
+}
+
+button {
+    font-size: 2.5vh;
+    box-shadow: 0.1vh 0.1vh 0.3vh rgba(0, 0, 0, 0.5);
+}
+
+.numbers {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.bar {
+    margin-bottom: 1vh;
+    width: 30vh;
+    height: 2.5vh;
+    background-color: lightblue;
+    border: 0.5vh dashed rgba(0, 0, 0, 0.685);
+}
+
+.insidebarFood {
+    width: 30vh;
+    height: 2.5vh;
+    background-color: brown;
+}
+
+.insidebarWater {
+    width: 30vh;
+    height: 2.5vh;
+    background-color: aqua;
+}
+
+.barText {
+    position: absolute;
+    margin-left: 1vh;
+    font-weight: bold;
+    font-size: 2vh;
+}
